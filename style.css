@@ -176,9 +176,9 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/image\ background.jpg") no-repeat center;
     height: 100vh;
-    color: #0783f3;
+    color: white;
     min-height: 500px;
     background-size: cover;
     background-attachment: fixed;
@@ -209,18 +209,18 @@ section .title::after{
 }
 .home .home-content a{
     display: inline-block;
-    background: #0783f3;
-    color: #fff;
+    background: white;
+    color: #0783f3;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 6px;
-    border: 2px solid #0783f3;
+    border: 2px solid white;
     transition: all 0.3s ease;
 }
 .home .home-content a:hover{
-    color: #0783f3;
+    color: white;
     background: none;
 }
 
@@ -312,6 +312,9 @@ section .title::after{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+}
+.card{
+    margin-top: 20px;
 }
 
 /* skills section styling */
